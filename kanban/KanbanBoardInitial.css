@@ -1,0 +1,67 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /*background-color: silver;*/
+}
+
+.kanban-title {
+    display: flex;
+}
+
+.card {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+}
+
+
+.card-title, .card-subtitle, .card-text {
+    text-align: left;
+}
+
+/*.status-dot {*/
+/*    display: inline-flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    width: 1.5em;*/
+/*    height: 1.5em;*/
+/*    border-radius: 50%;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+.status-dot {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status-dot-new {
+    background-color: gray;
+}
+
+.status-dot-active {
+    background-color: green;
+}
+
+.status-dot-review {
+    background-color: blue;
+}
+
+.status-dot-closed {
+    background-color: darkmagenta;
+}
+
