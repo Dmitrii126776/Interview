@@ -36,3 +36,18 @@ const moveCard = (id, newStatus) => {
         console.log(`Error updating card ${id} status: ${err}.`);
     })
 };
+
+// useEffect(() => {
+//     if (Array.isArray(cards)) {
+//         const filteredCards = [
+//             ...statusesCards.map((statusCard) => ({
+//                 ...statusCard,
+//                 cards: cards.filter((card) => card.status === statusCard.status),
+//             })),
+//         ];
+//         console.log("This is a message to the console");
+//         console.log(filteredCards);
+//         setBoards(filteredCards);
+//     }
+// }, [cards]);
+
