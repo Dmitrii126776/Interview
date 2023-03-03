@@ -8,4 +8,6 @@ function getNextNumber() {
 }
 
 console.log(getNextNumber() + 1); // 101
+console.log(getNextNumber() + 1); // 102
+console.log(getNextNumber() + 1); // 103
 
