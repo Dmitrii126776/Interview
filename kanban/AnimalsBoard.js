@@ -33,4 +33,3 @@ const AnimalsBoard = (props) => {
 };
 
 export default AnimalsBoard;
-// <a href="https://ibb.co/jZkKVGt"><img src="https://i.ibb.co/5xhDYvZ/IMG-1432.jpg" alt="IMG-1432" border="0"></a>
